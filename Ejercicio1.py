@@ -8,12 +8,14 @@ def ej1(y,x):
     return dydt
 
 y0=-1
-t = np.linspace(0,5)
+t = np.linspace(0,25)
 
 def resuelta():
     y = odeint(ej1,y0,t)
+    plt.plot(y,t)
     plt.xlabel('tiempo')
     plt.ylabel('y(t)')
+    plt.grid
     plt.show()
-    
+
 resuelta()
