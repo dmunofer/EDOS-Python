@@ -11,3 +11,8 @@ def ej3(y,x):
 t = np.linspace(0,5)
 def resuelta3():
     resuelta= odeint(ej3,t)
+    plt.xlabel('tiempo')
+    plt.ylabel('y(t)')
+    plt.show()
+
+resuelta3()
