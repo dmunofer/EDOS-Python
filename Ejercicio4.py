@@ -4,15 +4,16 @@ import matplotlib.pyplot as plt
 from math import *
 import sympy
 
-def ej3(y,x):
-    dydx = sympy(2*(x-2)**2*(y/(x-2)))
-    return dydx
+
+def ej4(y,t):
+    dydt=sympy(3*t**2+y)/(2*t)
+    return dydt
 
 t = np.linspace(0,5)
-def resuelta3():
-    resuelta= odeint(ej3,t)
+def resuelta4():
+    resuelta= odeint(ej4,t)
     plt.xlabel('tiempo')
     plt.ylabel('y(t)')
     plt.show()
 
-resuelta3()
+resuelta4()
