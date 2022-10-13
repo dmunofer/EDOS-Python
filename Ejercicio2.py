@@ -14,3 +14,8 @@ x=pi/2
 
 def resuelta2():
     resuelta=odeint(ej2,y0,x)
+    plt.xlabel('tiempo')
+    plt.ylabel('y(t)')
+    plt.show()
+
+resuelta2()
