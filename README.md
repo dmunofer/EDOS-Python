@@ -1,3 +1,3 @@
 # Ecuaciones
 
-https://github.com/dmunofer/Ecuaciones
+## Link del repositorio:https://github.com/dmunofer/Ecuaciones
